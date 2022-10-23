@@ -5,6 +5,7 @@ export type TextureResource = [string, string];
 export class Resources {
   private _texturesResources: TextureResource[] = [
     ["character", "character.png"],
+    ["tileset", "tileset.png"],
   ];
 
   loader: PIXI.Loader;

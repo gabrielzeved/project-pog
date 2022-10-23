@@ -1,12 +1,11 @@
 import * as PIXI from "pixi.js";
 import { AnimatedSprite, Spritesheet } from "pixi.js";
-import { resources } from "../../../main";
 import { Component } from "../Component";
 
-export type ISpritesheetRendererComponent = PIXI.ISpritesheetData & {
-  meta: {
-    image: string;
-  };
+export type ISpritesheetRendererComponent = {
+  spritesheetData: PIXI.ISpritesheetData;
+  texture: PIXI.Texture<PIXI.Resource>;
+  initialAnimation: string;
 };
 
 export class SpritesheetRendererComponent extends Component {
@@ -16,16 +15,19 @@ export class SpritesheetRendererComponent extends Component {
 
   constructor(private data: ISpritesheetRendererComponent) {
     super();
+    this.currentAnimation = data.initialAnimation;
   }
 
   start(): void {
     this.spritesheet = new PIXI.Spritesheet(
-      resources.textures[this.data.meta.image],
-      this.data
+      this.data.texture,
+      this.data.spritesheetData
     );
 
     this.spritesheet.parse().then(() => {
-      this.sprite = new PIXI.AnimatedSprite(this.spritesheet.animations.enemy);
+      this.sprite = new PIXI.AnimatedSprite(
+        this.spritesheet.animations[this.data.initialAnimation]
+      );
       this.sprite.animationSpeed = 0.167;
       this.sprite.play();
       this.entity.container.addChild(this.sprite);

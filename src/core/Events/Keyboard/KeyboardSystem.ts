@@ -121,6 +121,13 @@ export class KeyboardSystem implements InputSystemInterface {
     return this.customInputs[id];
   }
 
+  import(system: IKeyboardSystemCustom){
+    this.customInputs = {
+      ...this.customInputs,
+      ...system
+    }
+  }
+
   /* END CUSTOM INPUT CRUD */
 
   private _setupEvents() {
