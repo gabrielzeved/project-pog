@@ -34,7 +34,7 @@ export class MouseSystem implements InputSystemInterface {
   customInputs: IMouseSystemCustom = {};
   state: MouseState = {};
 
-  constructor(private view: HTMLCanvasElement) {
+  constructor(private app: PIXI.Application) {
     this._setupEvents();
   }
 
@@ -74,7 +74,7 @@ export class MouseSystem implements InputSystemInterface {
     const button = event.button as MouseButton;
 
     if (event.type === "mousemove") {
-      var rect = this.view.getBoundingClientRect();
+      var rect = this.app.view.getBoundingClientRect();
       var x = event.clientX - rect.left; //x position within the element.
       var y = event.clientY - rect.top; //y position within the element.
 
@@ -124,13 +124,13 @@ export class MouseSystem implements InputSystemInterface {
   }
 
   private _setupEvents() {
-    this.view.addEventListener("mousemove", (e) => {
+    this.app.view.addEventListener("mousemove", (e) => {
       this.handle(e);
     });
-    this.view.addEventListener("mousedown", (e) => {
+    this.app.view.addEventListener("mousedown", (e) => {
       this.handle(e);
     });
-    this.view.addEventListener("mouseup", (e) => {
+    this.app.view.addEventListener("mouseup", (e) => {
       this.handle(e);
     });
   }

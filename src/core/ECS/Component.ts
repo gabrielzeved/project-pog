@@ -9,7 +9,7 @@ export abstract class Component {
     return this.constructor.name;
   }
 
-  start(): void {}
-
-  update(_: number): void {}
+  abstract start(): void;
+  abstract update(delta: number): void;
+  destroy(): void {}
 }

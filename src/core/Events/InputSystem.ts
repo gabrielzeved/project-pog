@@ -1,4 +1,4 @@
-import { app } from "../../main";
+import { Application } from "pixi.js";
 import { KeyboardSystem } from "./Keyboard/KeyboardSystem";
 import { MouseSystem } from "./Mouse/MouseSystem";
 
@@ -16,9 +16,9 @@ export class InputSystem {
   keyboard: KeyboardSystem;
   mouse: MouseSystem;
 
-  constructor() {
+  constructor(protected app: Application) {
     this.keyboard = new KeyboardSystem();
-    this.mouse = new MouseSystem(app.view);
+    this.mouse = new MouseSystem(app);
   }
 
   process() {

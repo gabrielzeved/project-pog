@@ -5,10 +5,18 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React + TS</title>
+
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+      }
+    </style>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body oncontextmenu="return false;">
     <div id="root"></div>
-    <!-- <script type="module" src="/src/main.tsx"></script> -->
-    <script type="module" src="/src/main.ts"></script>
+    <script type="module" src="/src/game/main.ts"></script>
+    <div id="editor"></div>
   </body>
 </html>

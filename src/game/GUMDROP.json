@@ -1,0 +1,2370 @@
+{ "frames": {
+   "GUMDORP.28 #IdleSouth 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleSouth 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 0, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleSouth 2.ASEPRITE": {
+    "frame": { "x": 128, "y": 0, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleSouth 3.ASEPRITE": {
+    "frame": { "x": 192, "y": 0, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleSouth 4.ASEPRITE": {
+    "frame": { "x": 256, "y": 0, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleSouth 5.ASEPRITE": {
+    "frame": { "x": 320, "y": 0, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleSouth 6.ASEPRITE": {
+    "frame": { "x": 384, "y": 0, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleSouth 7.ASEPRITE": {
+    "frame": { "x": 448, "y": 0, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleEast 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 64, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleEast 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 64, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleEast 2.ASEPRITE": {
+    "frame": { "x": 128, "y": 64, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleEast 3.ASEPRITE": {
+    "frame": { "x": 192, "y": 64, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleEast 4.ASEPRITE": {
+    "frame": { "x": 256, "y": 64, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleEast 5.ASEPRITE": {
+    "frame": { "x": 320, "y": 64, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleEast 6.ASEPRITE": {
+    "frame": { "x": 384, "y": 64, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleEast 7.ASEPRITE": {
+    "frame": { "x": 448, "y": 64, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleNorth 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 128, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleNorth 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 128, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleNorth 2.ASEPRITE": {
+    "frame": { "x": 128, "y": 128, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleNorth 3.ASEPRITE": {
+    "frame": { "x": 192, "y": 128, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleNorth 4.ASEPRITE": {
+    "frame": { "x": 256, "y": 128, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleNorth 5.ASEPRITE": {
+    "frame": { "x": 320, "y": 128, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleNorth 6.ASEPRITE": {
+    "frame": { "x": 384, "y": 128, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleNorth 7.ASEPRITE": {
+    "frame": { "x": 448, "y": 128, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleWest 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 192, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleWest 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 192, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleWest 2.ASEPRITE": {
+    "frame": { "x": 128, "y": 192, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleWest 3.ASEPRITE": {
+    "frame": { "x": 192, "y": 192, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleWest 4.ASEPRITE": {
+    "frame": { "x": 256, "y": 192, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleWest 5.ASEPRITE": {
+    "frame": { "x": 320, "y": 192, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleWest 6.ASEPRITE": {
+    "frame": { "x": 384, "y": 192, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleWest 7.ASEPRITE": {
+    "frame": { "x": 448, "y": 192, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkSouth 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 256, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkSouth 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 256, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkSouth 2.ASEPRITE": {
+    "frame": { "x": 128, "y": 256, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkSouth 3.ASEPRITE": {
+    "frame": { "x": 192, "y": 256, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkSouth 4.ASEPRITE": {
+    "frame": { "x": 256, "y": 256, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkSouth 5.ASEPRITE": {
+    "frame": { "x": 320, "y": 256, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkSouth 6.ASEPRITE": {
+    "frame": { "x": 384, "y": 256, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkSouth 7.ASEPRITE": {
+    "frame": { "x": 448, "y": 256, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkEast 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 320, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkEast 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 320, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkEast 2.ASEPRITE": {
+    "frame": { "x": 128, "y": 320, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkEast 3.ASEPRITE": {
+    "frame": { "x": 192, "y": 320, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkEast 4.ASEPRITE": {
+    "frame": { "x": 256, "y": 320, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkEast 5.ASEPRITE": {
+    "frame": { "x": 320, "y": 320, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkEast 6.ASEPRITE": {
+    "frame": { "x": 384, "y": 320, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkEast 7.ASEPRITE": {
+    "frame": { "x": 448, "y": 320, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkNorth 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 384, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkNorth 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 384, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkNorth 2.ASEPRITE": {
+    "frame": { "x": 128, "y": 384, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkNorth 3.ASEPRITE": {
+    "frame": { "x": 192, "y": 384, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkNorth 4.ASEPRITE": {
+    "frame": { "x": 256, "y": 384, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkNorth 5.ASEPRITE": {
+    "frame": { "x": 320, "y": 384, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkNorth 6.ASEPRITE": {
+    "frame": { "x": 384, "y": 384, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkNorth 7.ASEPRITE": {
+    "frame": { "x": 448, "y": 384, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkWest 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 448, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkWest 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 448, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkWest 2.ASEPRITE": {
+    "frame": { "x": 128, "y": 448, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkWest 3.ASEPRITE": {
+    "frame": { "x": 192, "y": 448, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkWest 4.ASEPRITE": {
+    "frame": { "x": 256, "y": 448, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkWest 5.ASEPRITE": {
+    "frame": { "x": 320, "y": 448, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkWest 6.ASEPRITE": {
+    "frame": { "x": 384, "y": 448, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkWest 7.ASEPRITE": {
+    "frame": { "x": 448, "y": 448, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #RunSouth 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 512, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #RunSouth 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 512, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #RunSouth 2.ASEPRITE": {
+    "frame": { "x": 128, "y": 512, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #RunSouth 3.ASEPRITE": {
+    "frame": { "x": 192, "y": 512, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #RunSouth 4.ASEPRITE": {
+    "frame": { "x": 256, "y": 512, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #RunSouth 5.ASEPRITE": {
+    "frame": { "x": 320, "y": 512, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #RunSouth 6.ASEPRITE": {
+    "frame": { "x": 384, "y": 512, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #RunSouth 7.ASEPRITE": {
+    "frame": { "x": 448, "y": 512, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #RunEast 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 576, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #RunEast 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 576, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #RunEast 2.ASEPRITE": {
+    "frame": { "x": 128, "y": 576, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #RunEast 3.ASEPRITE": {
+    "frame": { "x": 192, "y": 576, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #RunEast 4.ASEPRITE": {
+    "frame": { "x": 256, "y": 576, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #RunEast 5.ASEPRITE": {
+    "frame": { "x": 320, "y": 576, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #RunEast 6.ASEPRITE": {
+    "frame": { "x": 384, "y": 576, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #RunEast 7.ASEPRITE": {
+    "frame": { "x": 448, "y": 576, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #RunNorth 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 640, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #RunNorth 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 640, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #RunNorth 2.ASEPRITE": {
+    "frame": { "x": 128, "y": 640, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #RunNorth 3.ASEPRITE": {
+    "frame": { "x": 192, "y": 640, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #RunNorth 4.ASEPRITE": {
+    "frame": { "x": 256, "y": 640, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #RunNorth 5.ASEPRITE": {
+    "frame": { "x": 320, "y": 640, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #RunNorth 6.ASEPRITE": {
+    "frame": { "x": 384, "y": 640, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #RunNorth 7.ASEPRITE": {
+    "frame": { "x": 448, "y": 640, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #RunWest 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 704, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #RunWest 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 704, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #RunWest 2.ASEPRITE": {
+    "frame": { "x": 128, "y": 704, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #RunWest 3.ASEPRITE": {
+    "frame": { "x": 192, "y": 704, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #RunWest 4.ASEPRITE": {
+    "frame": { "x": 256, "y": 704, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #RunWest 5.ASEPRITE": {
+    "frame": { "x": 320, "y": 704, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #RunWest 6.ASEPRITE": {
+    "frame": { "x": 384, "y": 704, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #RunWest 7.ASEPRITE": {
+    "frame": { "x": 448, "y": 704, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #AttackASouth 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 768, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #AttackASouth 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 768, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #AttackASouth 2.ASEPRITE": {
+    "frame": { "x": 128, "y": 768, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 46
+   },
+   "GUMDORP.28 #AttackASouth 3.ASEPRITE": {
+    "frame": { "x": 192, "y": 768, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #AttackASouth 4.ASEPRITE": {
+    "frame": { "x": 256, "y": 768, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 23
+   },
+   "GUMDORP.28 #AttackASouth 5.ASEPRITE": {
+    "frame": { "x": 320, "y": 768, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 96
+   },
+   "GUMDORP.28 #AttackAEast 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 832, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #AttackAEast 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 832, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #AttackAEast 2.ASEPRITE": {
+    "frame": { "x": 128, "y": 832, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 46
+   },
+   "GUMDORP.28 #AttackAEast 3.ASEPRITE": {
+    "frame": { "x": 192, "y": 832, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #AttackAEast 4.ASEPRITE": {
+    "frame": { "x": 256, "y": 832, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 23
+   },
+   "GUMDORP.28 #AttackAEast 5.ASEPRITE": {
+    "frame": { "x": 320, "y": 832, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 96
+   },
+   "GUMDORP.28 #AttackANorth 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 896, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #AttackANorth 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 896, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #AttackANorth 2.ASEPRITE": {
+    "frame": { "x": 128, "y": 896, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 46
+   },
+   "GUMDORP.28 #AttackANorth 3.ASEPRITE": {
+    "frame": { "x": 192, "y": 896, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #AttackANorth 4.ASEPRITE": {
+    "frame": { "x": 256, "y": 896, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 23
+   },
+   "GUMDORP.28 #AttackANorth 5.ASEPRITE": {
+    "frame": { "x": 320, "y": 896, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 96
+   },
+   "GUMDORP.28 #AttackAWest 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 960, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #AttackAWest 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 960, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #AttackAWest 2.ASEPRITE": {
+    "frame": { "x": 128, "y": 960, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 46
+   },
+   "GUMDORP.28 #AttackAWest 3.ASEPRITE": {
+    "frame": { "x": 192, "y": 960, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #AttackAWest 4.ASEPRITE": {
+    "frame": { "x": 256, "y": 960, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 23
+   },
+   "GUMDORP.28 #AttackAWest 5.ASEPRITE": {
+    "frame": { "x": 320, "y": 960, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 96
+   },
+   "GUMDORP.28 #AttackBSouth 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 1024, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #AttackBSouth 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 1024, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #AttackBSouth 2.ASEPRITE": {
+    "frame": { "x": 128, "y": 1024, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #AttackBSouth 3.ASEPRITE": {
+    "frame": { "x": 192, "y": 1024, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 46
+   },
+   "GUMDORP.28 #AttackBSouth 4.ASEPRITE": {
+    "frame": { "x": 256, "y": 1024, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 46
+   },
+   "GUMDORP.28 #AttackBSouth 5.ASEPRITE": {
+    "frame": { "x": 320, "y": 1024, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 96
+   },
+   "GUMDORP.28 #AttackBEast 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 1088, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #AttackBEast 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 1088, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #AttackBEast 2.ASEPRITE": {
+    "frame": { "x": 128, "y": 1088, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #AttackBEast 3.ASEPRITE": {
+    "frame": { "x": 192, "y": 1088, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 46
+   },
+   "GUMDORP.28 #AttackBEast 4.ASEPRITE": {
+    "frame": { "x": 256, "y": 1088, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 46
+   },
+   "GUMDORP.28 #AttackBEast 5.ASEPRITE": {
+    "frame": { "x": 320, "y": 1088, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 96
+   },
+   "GUMDORP.28 #AttackBNorth 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 1152, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #AttackBNorth 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 1152, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #AttackBNorth 2.ASEPRITE": {
+    "frame": { "x": 128, "y": 1152, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #AttackBNorth 3.ASEPRITE": {
+    "frame": { "x": 192, "y": 1152, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 46
+   },
+   "GUMDORP.28 #AttackBNorth 4.ASEPRITE": {
+    "frame": { "x": 256, "y": 1152, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 46
+   },
+   "GUMDORP.28 #AttackBNorth 5.ASEPRITE": {
+    "frame": { "x": 320, "y": 1152, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 96
+   },
+   "GUMDORP.28 #AttackBWest 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 1216, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #AttackBWest 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 1216, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #AttackBWest 2.ASEPRITE": {
+    "frame": { "x": 128, "y": 1216, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #AttackBWest 3.ASEPRITE": {
+    "frame": { "x": 192, "y": 1216, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 46
+   },
+   "GUMDORP.28 #AttackBWest 4.ASEPRITE": {
+    "frame": { "x": 256, "y": 1216, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 46
+   },
+   "GUMDORP.28 #AttackBWest 5.ASEPRITE": {
+    "frame": { "x": 320, "y": 1216, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 96
+   },
+   "GUMDORP.28 #AttackCSouth 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 1280, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 46
+   },
+   "GUMDORP.28 #AttackCSouth 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 1280, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 46
+   },
+   "GUMDORP.28 #AttackCSouth 2.ASEPRITE": {
+    "frame": { "x": 128, "y": 1280, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 46
+   },
+   "GUMDORP.28 #AttackCSouth 3.ASEPRITE": {
+    "frame": { "x": 192, "y": 1280, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 46
+   },
+   "GUMDORP.28 #AttackCSouth 4.ASEPRITE": {
+    "frame": { "x": 256, "y": 1280, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 46
+   },
+   "GUMDORP.28 #AttackCSouth 5.ASEPRITE": {
+    "frame": { "x": 320, "y": 1280, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #AttackCSouth 6.ASEPRITE": {
+    "frame": { "x": 384, "y": 1280, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #AttackCSouth 7.ASEPRITE": {
+    "frame": { "x": 448, "y": 1280, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 23
+   },
+   "GUMDORP.28 #AttackCSouth 8.ASEPRITE": {
+    "frame": { "x": 512, "y": 1280, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 46
+   },
+   "GUMDORP.28 #AttackCSouth 9.ASEPRITE": {
+    "frame": { "x": 576, "y": 1280, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 96
+   },
+   "GUMDORP.28 #AttackCEast 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 1344, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 46
+   },
+   "GUMDORP.28 #AttackCEast 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 1344, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 46
+   },
+   "GUMDORP.28 #AttackCEast 2.ASEPRITE": {
+    "frame": { "x": 128, "y": 1344, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 46
+   },
+   "GUMDORP.28 #AttackCEast 3.ASEPRITE": {
+    "frame": { "x": 192, "y": 1344, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 46
+   },
+   "GUMDORP.28 #AttackCEast 4.ASEPRITE": {
+    "frame": { "x": 256, "y": 1344, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 46
+   },
+   "GUMDORP.28 #AttackCEast 5.ASEPRITE": {
+    "frame": { "x": 320, "y": 1344, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #AttackCEast 6.ASEPRITE": {
+    "frame": { "x": 384, "y": 1344, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #AttackCEast 7.ASEPRITE": {
+    "frame": { "x": 448, "y": 1344, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 23
+   },
+   "GUMDORP.28 #AttackCEast 8.ASEPRITE": {
+    "frame": { "x": 512, "y": 1344, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 46
+   },
+   "GUMDORP.28 #AttackCEast 9.ASEPRITE": {
+    "frame": { "x": 576, "y": 1344, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 96
+   },
+   "GUMDORP.28 #AttackCNorth 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 1408, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 46
+   },
+   "GUMDORP.28 #AttackCNorth 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 1408, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 46
+   },
+   "GUMDORP.28 #AttackCNorth 2.ASEPRITE": {
+    "frame": { "x": 128, "y": 1408, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 46
+   },
+   "GUMDORP.28 #AttackCNorth 3.ASEPRITE": {
+    "frame": { "x": 192, "y": 1408, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 46
+   },
+   "GUMDORP.28 #AttackCNorth 4.ASEPRITE": {
+    "frame": { "x": 256, "y": 1408, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 46
+   },
+   "GUMDORP.28 #AttackCNorth 5.ASEPRITE": {
+    "frame": { "x": 320, "y": 1408, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #AttackCNorth 6.ASEPRITE": {
+    "frame": { "x": 384, "y": 1408, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #AttackCNorth 7.ASEPRITE": {
+    "frame": { "x": 448, "y": 1408, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 23
+   },
+   "GUMDORP.28 #AttackCNorth 8.ASEPRITE": {
+    "frame": { "x": 512, "y": 1408, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 46
+   },
+   "GUMDORP.28 #AttackCNorth 9.ASEPRITE": {
+    "frame": { "x": 576, "y": 1408, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 96
+   },
+   "GUMDORP.28 #AttackCWest 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 1472, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 46
+   },
+   "GUMDORP.28 #AttackCWest 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 1472, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 46
+   },
+   "GUMDORP.28 #AttackCWest 2.ASEPRITE": {
+    "frame": { "x": 128, "y": 1472, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 46
+   },
+   "GUMDORP.28 #AttackCWest 3.ASEPRITE": {
+    "frame": { "x": 192, "y": 1472, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 46
+   },
+   "GUMDORP.28 #AttackCWest 4.ASEPRITE": {
+    "frame": { "x": 256, "y": 1472, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 46
+   },
+   "GUMDORP.28 #AttackCWest 5.ASEPRITE": {
+    "frame": { "x": 320, "y": 1472, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #AttackCWest 6.ASEPRITE": {
+    "frame": { "x": 384, "y": 1472, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #AttackCWest 7.ASEPRITE": {
+    "frame": { "x": 448, "y": 1472, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 23
+   },
+   "GUMDORP.28 #AttackCWest 8.ASEPRITE": {
+    "frame": { "x": 512, "y": 1472, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 46
+   },
+   "GUMDORP.28 #AttackCWest 9.ASEPRITE": {
+    "frame": { "x": 576, "y": 1472, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 96
+   },
+   "GUMDORP.28 #HurtSouth 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 1536, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #HurtSouth 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 1536, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #HurtSouth 2.ASEPRITE": {
+    "frame": { "x": 128, "y": 1536, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #HurtEast 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 1600, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #HurtEast 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 1600, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #HurtEast 2.ASEPRITE": {
+    "frame": { "x": 128, "y": 1600, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #HurtNorth 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 1664, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #HurtNorth 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 1664, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #HurtNorth 2.ASEPRITE": {
+    "frame": { "x": 128, "y": 1664, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #HurtWest 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 1728, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #HurtWest 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 1728, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #HurtWest 2.ASEPRITE": {
+    "frame": { "x": 128, "y": 1728, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #DrawSouth 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 1792, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #DrawSouth 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 1792, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #DrawEast 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 1856, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #DrawEast 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 1856, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #DrawNorth 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 1920, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #DrawNorth 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 1920, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #DrawWest 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 1984, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #DrawWest 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 1984, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleDrawnSouth 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 2048, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleDrawnSouth 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 2048, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleDrawnSouth 2.ASEPRITE": {
+    "frame": { "x": 128, "y": 2048, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleDrawnSouth 3.ASEPRITE": {
+    "frame": { "x": 192, "y": 2048, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleDrawnSouth 4.ASEPRITE": {
+    "frame": { "x": 256, "y": 2048, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleDrawnSouth 5.ASEPRITE": {
+    "frame": { "x": 320, "y": 2048, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleDrawnSouth 6.ASEPRITE": {
+    "frame": { "x": 384, "y": 2048, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleDrawnSouth 7.ASEPRITE": {
+    "frame": { "x": 448, "y": 2048, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleDrawnEast 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 2112, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleDrawnEast 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 2112, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleDrawnEast 2.ASEPRITE": {
+    "frame": { "x": 128, "y": 2112, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleDrawnEast 3.ASEPRITE": {
+    "frame": { "x": 192, "y": 2112, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleDrawnEast 4.ASEPRITE": {
+    "frame": { "x": 256, "y": 2112, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleDrawnEast 5.ASEPRITE": {
+    "frame": { "x": 320, "y": 2112, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleDrawnEast 6.ASEPRITE": {
+    "frame": { "x": 384, "y": 2112, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleDrawnEast 7.ASEPRITE": {
+    "frame": { "x": 448, "y": 2112, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleDrawnNorth 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 2176, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleDrawnNorth 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 2176, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleDrawnNorth 2.ASEPRITE": {
+    "frame": { "x": 128, "y": 2176, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleDrawnNorth 3.ASEPRITE": {
+    "frame": { "x": 192, "y": 2176, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleDrawnNorth 4.ASEPRITE": {
+    "frame": { "x": 256, "y": 2176, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleDrawnNorth 5.ASEPRITE": {
+    "frame": { "x": 320, "y": 2176, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleDrawnNorth 6.ASEPRITE": {
+    "frame": { "x": 384, "y": 2176, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleDrawnNorth 7.ASEPRITE": {
+    "frame": { "x": 448, "y": 2176, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleDrawnWest 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 2240, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleDrawnWest 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 2240, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleDrawnWest 2.ASEPRITE": {
+    "frame": { "x": 128, "y": 2240, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleDrawnWest 3.ASEPRITE": {
+    "frame": { "x": 192, "y": 2240, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleDrawnWest 4.ASEPRITE": {
+    "frame": { "x": 256, "y": 2240, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleDrawnWest 5.ASEPRITE": {
+    "frame": { "x": 320, "y": 2240, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleDrawnWest 6.ASEPRITE": {
+    "frame": { "x": 384, "y": 2240, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #IdleDrawnWest 7.ASEPRITE": {
+    "frame": { "x": 448, "y": 2240, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkDrawnSouth 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 2304, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkDrawnSouth 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 2304, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkDrawnSouth 2.ASEPRITE": {
+    "frame": { "x": 128, "y": 2304, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkDrawnSouth 3.ASEPRITE": {
+    "frame": { "x": 192, "y": 2304, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkDrawnSouth 4.ASEPRITE": {
+    "frame": { "x": 256, "y": 2304, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkDrawnSouth 5.ASEPRITE": {
+    "frame": { "x": 320, "y": 2304, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkDrawnSouth 6.ASEPRITE": {
+    "frame": { "x": 384, "y": 2304, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkDrawnSouth 7.ASEPRITE": {
+    "frame": { "x": 448, "y": 2304, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkDrawnEast 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 2368, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkDrawnEast 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 2368, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkDrawnEast 2.ASEPRITE": {
+    "frame": { "x": 128, "y": 2368, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkDrawnEast 3.ASEPRITE": {
+    "frame": { "x": 192, "y": 2368, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkDrawnEast 4.ASEPRITE": {
+    "frame": { "x": 256, "y": 2368, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkDrawnEast 5.ASEPRITE": {
+    "frame": { "x": 320, "y": 2368, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkDrawnEast 6.ASEPRITE": {
+    "frame": { "x": 384, "y": 2368, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkDrawnEast 7.ASEPRITE": {
+    "frame": { "x": 448, "y": 2368, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkDrawnNorth 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 2432, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkDrawnNorth 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 2432, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkDrawnNorth 2.ASEPRITE": {
+    "frame": { "x": 128, "y": 2432, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkDrawnNorth 3.ASEPRITE": {
+    "frame": { "x": 192, "y": 2432, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkDrawnNorth 4.ASEPRITE": {
+    "frame": { "x": 256, "y": 2432, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkDrawnNorth 5.ASEPRITE": {
+    "frame": { "x": 320, "y": 2432, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkDrawnNorth 6.ASEPRITE": {
+    "frame": { "x": 384, "y": 2432, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkDrawnNorth 7.ASEPRITE": {
+    "frame": { "x": 448, "y": 2432, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkDrawnWest 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 2496, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkDrawnWest 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 2496, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkDrawnWest 2.ASEPRITE": {
+    "frame": { "x": 128, "y": 2496, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkDrawnWest 3.ASEPRITE": {
+    "frame": { "x": 192, "y": 2496, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkDrawnWest 4.ASEPRITE": {
+    "frame": { "x": 256, "y": 2496, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkDrawnWest 5.ASEPRITE": {
+    "frame": { "x": 320, "y": 2496, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkDrawnWest 6.ASEPRITE": {
+    "frame": { "x": 384, "y": 2496, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #WalkDrawnWest 7.ASEPRITE": {
+    "frame": { "x": 448, "y": 2496, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #HurtDrawnSouth 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 2560, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #HurtDrawnSouth 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 2560, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #HurtDrawnSouth 2.ASEPRITE": {
+    "frame": { "x": 128, "y": 2560, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #HurtDrawnEast 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 2624, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #HurtDrawnEast 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 2624, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #HurtDrawnEast 2.ASEPRITE": {
+    "frame": { "x": 128, "y": 2624, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #HurtDrawnNorth 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 2688, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #HurtDrawnNorth 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 2688, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #HurtDrawnNorth 2.ASEPRITE": {
+    "frame": { "x": 128, "y": 2688, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #HurtDrawnWest 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 2752, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #HurtDrawnWest 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 2752, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #HurtDrawnWest 2.ASEPRITE": {
+    "frame": { "x": 128, "y": 2752, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #SheathSouth 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 2816, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #SheathSouth 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 2816, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #SheathEast 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 2880, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #SheathEast 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 2880, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #SheathNorth 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 2944, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #SheathNorth 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 2944, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #SheathWest 0.ASEPRITE": {
+    "frame": { "x": 0, "y": 3008, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   },
+   "GUMDORP.28 #SheathWest 1.ASEPRITE": {
+    "frame": { "x": 64, "y": 3008, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 69
+   }
+ },
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.3-beta16-x64",
+  "image": "GUMDROP.PNG",
+  "format": "RGBA8888",
+  "size": { "w": 640, "h": 3072 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "IdleSouth", "from": 0, "to": 7, "direction": "forward", "color": "#000000ff" },
+   { "name": "IdleEast", "from": 8, "to": 15, "direction": "forward", "color": "#000000ff" },
+   { "name": "IdleNorth", "from": 16, "to": 23, "direction": "forward", "color": "#000000ff" },
+   { "name": "IdleWest", "from": 24, "to": 31, "direction": "forward", "color": "#000000ff" },
+   { "name": "WalkSouth", "from": 32, "to": 39, "direction": "forward", "color": "#000000ff" },
+   { "name": "WalkEast", "from": 40, "to": 47, "direction": "forward", "color": "#000000ff" },
+   { "name": "WalkNorth", "from": 48, "to": 55, "direction": "forward", "color": "#000000ff" },
+   { "name": "WalkWest", "from": 56, "to": 63, "direction": "forward", "color": "#000000ff" },
+   { "name": "RunSouth", "from": 64, "to": 71, "direction": "forward", "color": "#000000ff" },
+   { "name": "RunEast", "from": 72, "to": 79, "direction": "forward", "color": "#000000ff" },
+   { "name": "RunNorth", "from": 80, "to": 87, "direction": "forward", "color": "#000000ff" },
+   { "name": "RunWest", "from": 88, "to": 95, "direction": "forward", "color": "#000000ff" },
+   { "name": "AttackASouth", "from": 96, "to": 101, "direction": "forward", "color": "#000000ff" },
+   { "name": "AttackAEast", "from": 102, "to": 107, "direction": "forward", "color": "#000000ff" },
+   { "name": "AttackANorth", "from": 108, "to": 113, "direction": "forward", "color": "#000000ff" },
+   { "name": "AttackAWest", "from": 114, "to": 119, "direction": "forward", "color": "#000000ff" },
+   { "name": "AttackBSouth", "from": 120, "to": 125, "direction": "forward", "color": "#000000ff" },
+   { "name": "AttackBEast", "from": 126, "to": 131, "direction": "forward", "color": "#000000ff" },
+   { "name": "AttackBNorth", "from": 132, "to": 137, "direction": "forward", "color": "#000000ff" },
+   { "name": "AttackBWest", "from": 138, "to": 143, "direction": "forward", "color": "#000000ff" },
+   { "name": "AttackCSouth", "from": 144, "to": 153, "direction": "forward", "color": "#000000ff" },
+   { "name": "AttackCEast", "from": 154, "to": 163, "direction": "forward", "color": "#000000ff" },
+   { "name": "AttackCNorth", "from": 164, "to": 173, "direction": "forward", "color": "#000000ff" },
+   { "name": "AttackCWest", "from": 174, "to": 183, "direction": "forward", "color": "#000000ff" },
+   { "name": "HurtSouth", "from": 184, "to": 186, "direction": "forward", "color": "#000000ff" },
+   { "name": "HurtEast", "from": 187, "to": 189, "direction": "forward", "color": "#000000ff" },
+   { "name": "HurtNorth", "from": 190, "to": 192, "direction": "forward", "color": "#000000ff" },
+   { "name": "HurtWest", "from": 193, "to": 195, "direction": "forward", "color": "#000000ff" },
+   { "name": "DrawSouth", "from": 196, "to": 197, "direction": "forward", "color": "#000000ff" },
+   { "name": "DrawEast", "from": 198, "to": 199, "direction": "forward", "color": "#000000ff" },
+   { "name": "DrawNorth", "from": 200, "to": 201, "direction": "forward", "color": "#000000ff" },
+   { "name": "DrawWest", "from": 202, "to": 203, "direction": "forward", "color": "#000000ff" },
+   { "name": "IdleDrawnSouth", "from": 204, "to": 211, "direction": "forward", "color": "#000000ff" },
+   { "name": "IdleDrawnEast", "from": 212, "to": 219, "direction": "forward", "color": "#000000ff" },
+   { "name": "IdleDrawnNorth", "from": 220, "to": 227, "direction": "forward", "color": "#000000ff" },
+   { "name": "IdleDrawnWest", "from": 228, "to": 235, "direction": "forward", "color": "#000000ff" },
+   { "name": "WalkDrawnSouth", "from": 236, "to": 243, "direction": "forward", "color": "#000000ff" },
+   { "name": "WalkDrawnEast", "from": 244, "to": 251, "direction": "forward", "color": "#000000ff" },
+   { "name": "WalkDrawnNorth", "from": 252, "to": 259, "direction": "forward", "color": "#000000ff" },
+   { "name": "WalkDrawnWest", "from": 260, "to": 267, "direction": "forward", "color": "#000000ff" },
+   { "name": "HurtDrawnSouth", "from": 268, "to": 270, "direction": "forward", "color": "#000000ff" },
+   { "name": "HurtDrawnEast", "from": 271, "to": 273, "direction": "forward", "color": "#000000ff" },
+   { "name": "HurtDrawnNorth", "from": 274, "to": 276, "direction": "forward", "color": "#000000ff" },
+   { "name": "HurtDrawnWest", "from": 277, "to": 279, "direction": "forward", "color": "#000000ff" },
+   { "name": "SheathSouth", "from": 280, "to": 281, "direction": "forward", "color": "#000000ff" },
+   { "name": "SheathEast", "from": 282, "to": 283, "direction": "forward", "color": "#000000ff" },
+   { "name": "SheathNorth", "from": 284, "to": 285, "direction": "forward", "color": "#000000ff" },
+   { "name": "SheathWest", "from": 286, "to": 287, "direction": "forward", "color": "#000000ff" }
+  ],
+  "layers": [
+   { "name": "Flattened", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}
