@@ -52,9 +52,11 @@ export class StaminaComponent extends Component {
       0.3 * delta
     );
 
-    if (this.currentAmount === this.max)
+    if (this.currentAmount === this.max) {
       this.graphics.alpha = Math.lerp(this.graphics.alpha, 0, 0.25 * delta);
-    else this.graphics.alpha = Math.lerp(this.graphics.alpha, 1, 0.8 * delta);
+    } else {
+      this.graphics.alpha = Math.lerp(this.graphics.alpha, 1, 0.8 * delta);
+    }
 
     this._draw();
   }

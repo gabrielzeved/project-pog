@@ -1,23 +1,12 @@
-import { vec2 } from "gl-matrix";
 import * as PIXI from "pixi.js";
+import { Layer, Tilemap } from "../../Tiled/Tiled";
 import { Component } from "../Component";
-
-export interface TilemapComponentProps {
-  tiles: number[];
-  tileset: PIXI.Texture;
-  tileSize: vec2;
-  width: number;
-  height: number;
-}
 
 export class TilemapComponent extends Component {
   tiles: PIXI.Graphics;
 
-  private totalTilesetX: number;
-
-  constructor(private props: TilemapComponentProps) {
+  constructor(private tilemap: Tilemap) {
     super();
-    this.totalTilesetX = props.tileset.width / props.tileSize[0];
   }
 
   start() {
@@ -29,37 +18,43 @@ export class TilemapComponent extends Component {
   update(_: number): void {}
 
   draw() {
-    const { tiles } = this.props;
-
-    const numberOfTilesX = this.props.width;
-    const numberOfTilesY = this.props.height;
-
     this.tiles.clear();
+    this.tilemap.layers.forEach((layer) => this.drawLayer(layer));
+  }
+
+  drawLayer(layer: Layer) {
+    const { tiles } = layer;
+
+    const numberOfTilesX = layer.width;
+    const numberOfTilesY = layer.height;
 
     for (let y = 0; y < numberOfTilesY; y++) {
       for (let x = 0; x < numberOfTilesX; x++) {
-        const tile = tiles[y * numberOfTilesY + x] - 1;
+        const tile = tiles[y * numberOfTilesY + x];
 
         if (tile === undefined) continue;
 
-        this.tile(x, y, tile);
+        this.tile(x, y, tile.id - 1);
       }
     }
   }
 
   tile(x: number, y: number, tile: number) {
-    const { tileSize, tileset } = this.props;
+    const tileset = this.tilemap.getTileset(tile);
+    if (!tileset) return;
 
-    const indexX = tile % this.totalTilesetX;
-    const indexY = Math.floor(tile / this.totalTilesetX);
+    const totalTilesetX = tileset.imagewidth / tileset.tilewidth;
+
+    const indexX = tile % totalTilesetX;
+    const indexY = Math.floor(tile / totalTilesetX);
 
     const tileTex = new PIXI.Texture(
-      tileset.baseTexture,
+      tileset.texture.castToBaseTexture(),
       new PIXI.Rectangle(
-        tileSize[0] * indexX,
-        tileSize[1] * indexY,
-        tileSize[0],
-        tileSize[1]
+        tileset.tilewidth * indexX,
+        tileset.tileheight * indexY,
+        tileset.tilewidth,
+        tileset.tileheight
       )
     );
 
@@ -67,10 +62,10 @@ export class TilemapComponent extends Component {
       texture: tileTex,
     });
     this.tiles.drawRect(
-      x * tileSize[0],
-      y * tileSize[1],
-      tileSize[0],
-      tileSize[1]
+      x * tileset.tilewidth,
+      y * tileset.tileheight,
+      tileset.tilewidth,
+      tileset.tileheight
     );
   }
 }

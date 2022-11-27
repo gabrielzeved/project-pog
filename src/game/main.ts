@@ -13,7 +13,7 @@ import char from "./GUMDROP.json";
 import { Resources } from "./Resources";
 
 import Stats from "stats.js";
-import { Layer2Tilemap } from "../core/Tiled/Tiled";
+import { Tilemap } from "../core/Tiled/Tiled";
 
 export const options = {
   debug: false,
@@ -60,13 +60,10 @@ inputSystem.keyboard.import({
   attack: Key.Space,
 });
 
-const tilemap = app.createEntity();
-tilemap.addComponent(
-  await Layer2Tilemap(
-    resources.maps["teste"].layers[0],
-    resources.maps["teste"].tilesets[0]
-  )
-);
+const tilemap = Tilemap.fromTiled(resources.maps["teste"]);
+
+const tilemapE = app.createEntity();
+tilemapE.addComponent(tilemap.toComponent());
 
 const entity = app.createEntity();
 entity.pivot = [0.5, 0.5];

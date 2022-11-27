@@ -1,13 +1,13 @@
-export interface Export {
+export interface IExport {
   format: string;
   target: string;
 }
 
-export interface EditorSetting {
-  export: Export;
+export interface IEditorSetting {
+  export: IExport;
 }
 
-export interface Layer {
+export interface ILayer {
   data: number[];
   height: number;
   id: number;
@@ -20,7 +20,7 @@ export interface Layer {
   y: number;
 }
 
-export interface Tileset {
+export interface ITileset {
   columns: number;
   firstgid: number;
   image: string;
@@ -34,19 +34,19 @@ export interface Tileset {
   tilewidth: number;
 }
 
-export interface TiledFile {
+export interface ITiledFile {
   compressionlevel: number;
-  editorsettings: EditorSetting;
+  editorsettings: IEditorSetting;
   height: number;
   infinite: boolean;
-  layers: Layer[];
+  layers: ILayer[];
   nextlayerid: number;
   nextobjectid: number;
   orientation: string;
   renderorder: string;
   tiledversion: string;
   tileheight: number;
-  tilesets: Tileset[];
+  tilesets: ITileset[];
   tilewidth: number;
   type: string;
   version: number;
