@@ -23,6 +23,17 @@ export class TilemapComponent extends Component {
   }
 
   drawLayer(layer: Layer) {
+    switch (layer.type) {
+      case "tilelayer":
+        this.drawTileLayer(layer);
+        break;
+      case "objectgroup":
+        this.drawObjectGroupLayer(layer);
+        break;
+    }
+  }
+
+  drawTileLayer(layer: Layer) {
     const { tiles } = layer;
 
     const numberOfTilesX = layer.width;
@@ -39,9 +50,24 @@ export class TilemapComponent extends Component {
     }
   }
 
+  drawObjectGroupLayer(layer: Layer) {
+    const { objects } = layer;
+
+    for (let object of objects) {
+      const tileX = object.x / object.width;
+      const tileY = object.y / object.height;
+
+      // DONT KNOW WHY -1 IS NECESSARY ;c
+      this.tile(tileX, tileY - 1, object.tile.id);
+    }
+  }
+
   tile(x: number, y: number, tile: number) {
-    const tileset = this.tilemap.getTileset(tile);
-    if (!tileset) return;
+    //+1 DUE THE TILED FORMAT STARTS INDEX FROM 1
+    const tileset = this.tilemap.getTileset(tile + 1);
+    if (!tileset) {
+      return;
+    }
 
     const totalTilesetX = tileset.imagewidth / tileset.tilewidth;
 

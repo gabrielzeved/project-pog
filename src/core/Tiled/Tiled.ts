@@ -1,6 +1,13 @@
 import * as PIXI from "pixi.js";
 import { TilemapComponent } from "../ECS/components/TilemapComponent";
-import { ILayer, ITiledFile, ITileset } from "./typings";
+import {
+  ILayer,
+  IObject,
+  IProperty,
+  ITiledFile,
+  ITileset,
+  LayerType,
+} from "./typings";
 
 interface Tile {
   id: number;
@@ -10,6 +17,20 @@ interface Tile {
   //---------- UNUSED
   rotatedHexagonal120: boolean;
 }
+
+interface Object {
+  x: number;
+  y: number;
+  width: number;
+  height: number;
+  tile: Tile;
+  gid: number;
+  id: number;
+  name: string;
+  properties?: IProperty[];
+  visible: boolean;
+}
+
 export class Tilemap {
   layers: Layer[];
   tilesets: Tileset[];
@@ -46,18 +67,30 @@ export class Tilemap {
 
 export class Layer {
   tiles: Tile[];
+  objects: Object[];
   width: number;
   height: number;
+  type: LayerType;
 
-  constructor(width: number, height: number) {
-    this.width = width;
-    this.height = height;
+  constructor(data: ILayer) {
+    this.width = data.width;
+    this.height = data.height;
+    this.type = data.type;
   }
 
   public static fromTiled(data: ILayer): Layer {
-    const layer = new Layer(data.width, data.height);
-    if (data.data) layer.tiles = data.data.map((id) => Tiled.processGID(id));
+    const layer = new Layer(data);
+
+    if (data.type == "tilelayer") {
+      layer.tiles = data.data.map(Tiled.processGID);
+    } else if (data.type == "objectgroup") {
+      layer.parseObjects(data);
+    }
     return layer;
+  }
+
+  parseObjects(data: ILayer) {
+    this.objects = data.objects.map(Tiled.processObject);
   }
 }
 
@@ -124,6 +157,13 @@ export namespace Tiled {
       flippedHorizontally: flipped_horizontally !== 0,
       flippedVertically: flipped_vertically !== 0,
       rotatedHexagonal120: rotated_hex120 !== 0,
+    };
+  }
+
+  export function processObject(object: IObject): Object {
+    return {
+      ...object,
+      tile: processGID(object.gid),
     };
   }
 }
