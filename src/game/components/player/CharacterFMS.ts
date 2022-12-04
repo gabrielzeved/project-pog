@@ -1,10 +1,9 @@
-import { MouseButton } from "../../core/Events/Mouse/MouseSystem";
+import { MouseButton } from "../../../core/Events/Mouse/MouseSystem";
 import {
   FiniteStateMachine,
   State,
-} from "../../core/StateMachine/StateMachine";
-import { PlayerComponent } from "../components/PlayerComponent";
-import { inputSystem } from "../main";
+} from "../../../core/StateMachine/StateMachine";
+import { PlayerComponent } from "./PlayerComponent";
 
 export class CharacterFSM extends FiniteStateMachine {
   component: PlayerComponent;
@@ -147,7 +146,10 @@ class AttackState extends AnimationState {
 
   update(delta: number): void {
     super.update(delta);
-    if (this.waitFrame && inputSystem.mouse.isButtonDown(MouseButton.LEFT))
+    if (
+      this.waitFrame &&
+      this._parent.component.inputSystem.mouse.isButtonDown(MouseButton.LEFT)
+    )
       this.shouldCombo = true;
     this.waitFrame = true;
   }
@@ -189,7 +191,10 @@ class AttackBState extends AnimationState {
 
   update(delta: number): void {
     super.update(delta);
-    if (this.waitFrame && inputSystem.mouse.isButtonDown(MouseButton.LEFT))
+    if (
+      this.waitFrame &&
+      this._parent.component.inputSystem.mouse.isButtonDown(MouseButton.LEFT)
+    )
       this.shouldCombo = true;
     this.waitFrame = true;
   }

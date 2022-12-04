@@ -1,0 +1,1214 @@
+{
+  "frames": {
+    "hexaclops.reorganize #IdleSouth 0.aseprite": {
+      "frame": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #IdleSouth 1.aseprite": {
+      "frame": { "x": 64, "y": 0, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #IdleSouth 2.aseprite": {
+      "frame": { "x": 128, "y": 0, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #IdleSouth 3.aseprite": {
+      "frame": { "x": 192, "y": 0, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #IdleSouth 4.aseprite": {
+      "frame": { "x": 256, "y": 0, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #IdleSouth 5.aseprite": {
+      "frame": { "x": 320, "y": 0, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #IdleSouth 6.aseprite": {
+      "frame": { "x": 384, "y": 0, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #IdleSouth 7.aseprite": {
+      "frame": { "x": 448, "y": 0, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #MoveSouth 0.aseprite": {
+      "frame": { "x": 0, "y": 64, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #MoveSouth 1.aseprite": {
+      "frame": { "x": 64, "y": 64, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #MoveSouth 2.aseprite": {
+      "frame": { "x": 128, "y": 64, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #MoveSouth 3.aseprite": {
+      "frame": { "x": 192, "y": 64, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #MoveSouth 4.aseprite": {
+      "frame": { "x": 256, "y": 64, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #MoveSouth 5.aseprite": {
+      "frame": { "x": 320, "y": 64, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #MoveSouth 6.aseprite": {
+      "frame": { "x": 384, "y": 64, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #MoveSouth 7.aseprite": {
+      "frame": { "x": 448, "y": 64, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #HurtSouth 0.aseprite": {
+      "frame": { "x": 0, "y": 128, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #HurtSouth 1.aseprite": {
+      "frame": { "x": 64, "y": 128, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 180
+    },
+    "hexaclops.reorganize #HurtSouth 2.aseprite": {
+      "frame": { "x": 128, "y": 128, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #ShrinkSouth 0.aseprite": {
+      "frame": { "x": 0, "y": 192, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #ShrinkSouth 1.aseprite": {
+      "frame": { "x": 64, "y": 192, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #ShrinkSouth 2.aseprite": {
+      "frame": { "x": 128, "y": 192, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #ShrinkSouth 3.aseprite": {
+      "frame": { "x": 192, "y": 192, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #ShrinkSouth 4.aseprite": {
+      "frame": { "x": 256, "y": 192, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #ShrinkSouth 5.aseprite": {
+      "frame": { "x": 320, "y": 192, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #ShrinkSouth 6.aseprite": {
+      "frame": { "x": 384, "y": 192, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #GrowSouth 0.aseprite": {
+      "frame": { "x": 0, "y": 256, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #GrowSouth 1.aseprite": {
+      "frame": { "x": 64, "y": 256, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #GrowSouth 2.aseprite": {
+      "frame": { "x": 128, "y": 256, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #GrowSouth 3.aseprite": {
+      "frame": { "x": 192, "y": 256, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #GrowSouth 4.aseprite": {
+      "frame": { "x": 256, "y": 256, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #GrowSouth 5.aseprite": {
+      "frame": { "x": 320, "y": 256, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #GrowSouth 6.aseprite": {
+      "frame": { "x": 384, "y": 256, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #IdleEast 0.aseprite": {
+      "frame": { "x": 0, "y": 320, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #IdleEast 1.aseprite": {
+      "frame": { "x": 64, "y": 320, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #IdleEast 2.aseprite": {
+      "frame": { "x": 128, "y": 320, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #IdleEast 3.aseprite": {
+      "frame": { "x": 192, "y": 320, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #IdleEast 4.aseprite": {
+      "frame": { "x": 256, "y": 320, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #IdleEast 5.aseprite": {
+      "frame": { "x": 320, "y": 320, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #IdleEast 6.aseprite": {
+      "frame": { "x": 384, "y": 320, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #IdleEast 7.aseprite": {
+      "frame": { "x": 448, "y": 320, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #MoveEast 0.aseprite": {
+      "frame": { "x": 0, "y": 384, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #MoveEast 1.aseprite": {
+      "frame": { "x": 64, "y": 384, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #MoveEast 2.aseprite": {
+      "frame": { "x": 128, "y": 384, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #MoveEast 3.aseprite": {
+      "frame": { "x": 192, "y": 384, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #MoveEast 4.aseprite": {
+      "frame": { "x": 256, "y": 384, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #MoveEast 5.aseprite": {
+      "frame": { "x": 320, "y": 384, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #MoveEast 6.aseprite": {
+      "frame": { "x": 384, "y": 384, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #MoveEast 7.aseprite": {
+      "frame": { "x": 448, "y": 384, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #HurtEast 0.aseprite": {
+      "frame": { "x": 0, "y": 448, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #HurtEast 1.aseprite": {
+      "frame": { "x": 64, "y": 448, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 180
+    },
+    "hexaclops.reorganize #HurtEast 2.aseprite": {
+      "frame": { "x": 128, "y": 448, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #ShrinkEast 0.aseprite": {
+      "frame": { "x": 0, "y": 512, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #ShrinkEast 1.aseprite": {
+      "frame": { "x": 64, "y": 512, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #ShrinkEast 2.aseprite": {
+      "frame": { "x": 128, "y": 512, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #ShrinkEast 3.aseprite": {
+      "frame": { "x": 192, "y": 512, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #ShrinkEast 4.aseprite": {
+      "frame": { "x": 256, "y": 512, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #ShrinkEast 5.aseprite": {
+      "frame": { "x": 320, "y": 512, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #ShrinkEast 6.aseprite": {
+      "frame": { "x": 384, "y": 512, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #GrowEast 0.aseprite": {
+      "frame": { "x": 0, "y": 576, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #GrowEast 1.aseprite": {
+      "frame": { "x": 64, "y": 576, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #GrowEast 2.aseprite": {
+      "frame": { "x": 128, "y": 576, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #GrowEast 3.aseprite": {
+      "frame": { "x": 192, "y": 576, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #GrowEast 4.aseprite": {
+      "frame": { "x": 256, "y": 576, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #GrowEast 5.aseprite": {
+      "frame": { "x": 320, "y": 576, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #GrowEast 6.aseprite": {
+      "frame": { "x": 384, "y": 576, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #IdleNorth 0.aseprite": {
+      "frame": { "x": 0, "y": 640, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #IdleNorth 1.aseprite": {
+      "frame": { "x": 64, "y": 640, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #IdleNorth 2.aseprite": {
+      "frame": { "x": 128, "y": 640, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #IdleNorth 3.aseprite": {
+      "frame": { "x": 192, "y": 640, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #IdleNorth 4.aseprite": {
+      "frame": { "x": 256, "y": 640, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #IdleNorth 5.aseprite": {
+      "frame": { "x": 320, "y": 640, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #IdleNorth 6.aseprite": {
+      "frame": { "x": 384, "y": 640, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #IdleNorth 7.aseprite": {
+      "frame": { "x": 448, "y": 640, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #MoveNorth 0.aseprite": {
+      "frame": { "x": 0, "y": 704, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #MoveNorth 1.aseprite": {
+      "frame": { "x": 64, "y": 704, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #MoveNorth 2.aseprite": {
+      "frame": { "x": 128, "y": 704, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #MoveNorth 3.aseprite": {
+      "frame": { "x": 192, "y": 704, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #MoveNorth 4.aseprite": {
+      "frame": { "x": 256, "y": 704, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #MoveNorth 5.aseprite": {
+      "frame": { "x": 320, "y": 704, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #MoveNorth 6.aseprite": {
+      "frame": { "x": 384, "y": 704, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #MoveNorth 7.aseprite": {
+      "frame": { "x": 448, "y": 704, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #HurtNorth 0.aseprite": {
+      "frame": { "x": 0, "y": 768, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #HurtNorth 1.aseprite": {
+      "frame": { "x": 64, "y": 768, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 180
+    },
+    "hexaclops.reorganize #HurtNorth 2.aseprite": {
+      "frame": { "x": 128, "y": 768, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #ShrinkNorth 0.aseprite": {
+      "frame": { "x": 0, "y": 832, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #ShrinkNorth 1.aseprite": {
+      "frame": { "x": 64, "y": 832, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #ShrinkNorth 2.aseprite": {
+      "frame": { "x": 128, "y": 832, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #ShrinkNorth 3.aseprite": {
+      "frame": { "x": 192, "y": 832, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #ShrinkNorth 4.aseprite": {
+      "frame": { "x": 256, "y": 832, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #ShrinkNorth 5.aseprite": {
+      "frame": { "x": 320, "y": 832, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #ShrinkNorth 6.aseprite": {
+      "frame": { "x": 384, "y": 832, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #GrowNorth 0.aseprite": {
+      "frame": { "x": 0, "y": 896, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #GrowNorth 1.aseprite": {
+      "frame": { "x": 64, "y": 896, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #GrowNorth 2.aseprite": {
+      "frame": { "x": 128, "y": 896, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #GrowNorth 3.aseprite": {
+      "frame": { "x": 192, "y": 896, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #GrowNorth 4.aseprite": {
+      "frame": { "x": 256, "y": 896, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #GrowNorth 5.aseprite": {
+      "frame": { "x": 320, "y": 896, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #GrowNorth 6.aseprite": {
+      "frame": { "x": 384, "y": 896, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #IdleWest 0.aseprite": {
+      "frame": { "x": 0, "y": 960, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #IdleWest 1.aseprite": {
+      "frame": { "x": 64, "y": 960, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #IdleWest 2.aseprite": {
+      "frame": { "x": 128, "y": 960, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #IdleWest 3.aseprite": {
+      "frame": { "x": 192, "y": 960, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #IdleWest 4.aseprite": {
+      "frame": { "x": 256, "y": 960, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #IdleWest 5.aseprite": {
+      "frame": { "x": 320, "y": 960, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #IdleWest 6.aseprite": {
+      "frame": { "x": 384, "y": 960, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #IdleWest 7.aseprite": {
+      "frame": { "x": 448, "y": 960, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #MoveWest 0.aseprite": {
+      "frame": { "x": 0, "y": 1024, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #MoveWest 1.aseprite": {
+      "frame": { "x": 64, "y": 1024, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #MoveWest 2.aseprite": {
+      "frame": { "x": 128, "y": 1024, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #MoveWest 3.aseprite": {
+      "frame": { "x": 192, "y": 1024, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #MoveWest 4.aseprite": {
+      "frame": { "x": 256, "y": 1024, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #MoveWest 5.aseprite": {
+      "frame": { "x": 320, "y": 1024, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #MoveWest 6.aseprite": {
+      "frame": { "x": 384, "y": 1024, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #MoveWest 7.aseprite": {
+      "frame": { "x": 448, "y": 1024, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #HurtWest 0.aseprite": {
+      "frame": { "x": 0, "y": 1088, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #HurtWest 1.aseprite": {
+      "frame": { "x": 64, "y": 1088, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 180
+    },
+    "hexaclops.reorganize #HurtWest 2.aseprite": {
+      "frame": { "x": 128, "y": 1088, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #ShrinkWest 0.aseprite": {
+      "frame": { "x": 0, "y": 1152, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #ShrinkWest 1.aseprite": {
+      "frame": { "x": 64, "y": 1152, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #ShrinkWest 2.aseprite": {
+      "frame": { "x": 128, "y": 1152, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #ShrinkWest 3.aseprite": {
+      "frame": { "x": 192, "y": 1152, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #ShrinkWest 4.aseprite": {
+      "frame": { "x": 256, "y": 1152, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #ShrinkWest 5.aseprite": {
+      "frame": { "x": 320, "y": 1152, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #ShrinkWest 6.aseprite": {
+      "frame": { "x": 384, "y": 1152, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #GrowWest 0.aseprite": {
+      "frame": { "x": 0, "y": 1216, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #GrowWest 1.aseprite": {
+      "frame": { "x": 64, "y": 1216, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #GrowWest 2.aseprite": {
+      "frame": { "x": 128, "y": 1216, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #GrowWest 3.aseprite": {
+      "frame": { "x": 192, "y": 1216, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #GrowWest 4.aseprite": {
+      "frame": { "x": 256, "y": 1216, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #GrowWest 5.aseprite": {
+      "frame": { "x": 320, "y": 1216, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    },
+    "hexaclops.reorganize #GrowWest 6.aseprite": {
+      "frame": { "x": 384, "y": 1216, "w": 64, "h": 64 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 },
+      "duration": 60
+    }
+  },
+  "meta": {
+    "app": "http://www.aseprite.org/",
+    "version": "1.3-beta14-x64",
+    "image": "classic_red_octonid.png",
+    "format": "RGBA8888",
+    "size": { "w": 512, "h": 1280 },
+    "scale": "1",
+    "frameTags": [
+      {
+        "name": "IdleSouth",
+        "from": 0,
+        "to": 7,
+        "direction": "forward",
+        "color": "#000000ff"
+      },
+      {
+        "name": "MoveSouth",
+        "from": 8,
+        "to": 15,
+        "direction": "forward",
+        "color": "#000000ff"
+      },
+      {
+        "name": "HurtSouth",
+        "from": 16,
+        "to": 18,
+        "direction": "forward",
+        "color": "#000000ff"
+      },
+      {
+        "name": "ShrinkSouth",
+        "from": 19,
+        "to": 25,
+        "direction": "forward",
+        "color": "#000000ff"
+      },
+      {
+        "name": "GrowSouth",
+        "from": 26,
+        "to": 32,
+        "direction": "forward",
+        "color": "#000000ff"
+      },
+      {
+        "name": "IdleEast",
+        "from": 33,
+        "to": 40,
+        "direction": "forward",
+        "color": "#000000ff"
+      },
+      {
+        "name": "MoveEast",
+        "from": 41,
+        "to": 48,
+        "direction": "forward",
+        "color": "#000000ff"
+      },
+      {
+        "name": "HurtEast",
+        "from": 49,
+        "to": 51,
+        "direction": "forward",
+        "color": "#000000ff"
+      },
+      {
+        "name": "ShrinkEast",
+        "from": 52,
+        "to": 58,
+        "direction": "forward",
+        "color": "#000000ff"
+      },
+      {
+        "name": "GrowEast",
+        "from": 59,
+        "to": 65,
+        "direction": "forward",
+        "color": "#000000ff"
+      },
+      {
+        "name": "IdleNorth",
+        "from": 66,
+        "to": 73,
+        "direction": "forward",
+        "color": "#000000ff"
+      },
+      {
+        "name": "MoveNorth",
+        "from": 74,
+        "to": 81,
+        "direction": "forward",
+        "color": "#000000ff"
+      },
+      {
+        "name": "HurtNorth",
+        "from": 82,
+        "to": 84,
+        "direction": "forward",
+        "color": "#000000ff"
+      },
+      {
+        "name": "ShrinkNorth",
+        "from": 85,
+        "to": 91,
+        "direction": "forward",
+        "color": "#000000ff"
+      },
+      {
+        "name": "GrowNorth",
+        "from": 92,
+        "to": 98,
+        "direction": "forward",
+        "color": "#000000ff"
+      },
+      {
+        "name": "IdleWest",
+        "from": 99,
+        "to": 106,
+        "direction": "forward",
+        "color": "#000000ff"
+      },
+      {
+        "name": "MoveWest",
+        "from": 107,
+        "to": 114,
+        "direction": "forward",
+        "color": "#000000ff"
+      },
+      {
+        "name": "HurtWest",
+        "from": 115,
+        "to": 117,
+        "direction": "forward",
+        "color": "#000000ff"
+      },
+      {
+        "name": "ShrinkWest",
+        "from": 118,
+        "to": 124,
+        "direction": "forward",
+        "color": "#000000ff"
+      },
+      {
+        "name": "GrowWest",
+        "from": 125,
+        "to": 131,
+        "direction": "forward",
+        "color": "#000000ff"
+      }
+    ],
+    "layers": [
+      { "name": "idle.smooth.4 Copy", "opacity": 255, "blendMode": "normal" }
+    ],
+    "slices": []
+  }
+}

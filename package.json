@@ -9,8 +9,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@pixi/assets": "6.5.7",
+    "@pixi/basis": "6.5.7",
+    "@pixi/layers": "1.0.11",
+    "@pixi/tilemap": "^2.2.0",
     "dat.gui": "^0.7.9",
     "gl-matrix": "^3.4.3",
+    "lil-gui": "^0.17.0",
     "pixi-filters": "^4.0.0",
     "pixi.js": "^6.5.7",
     "react": "^18.2.0",

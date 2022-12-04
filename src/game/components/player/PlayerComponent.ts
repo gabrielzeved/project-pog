@@ -1,10 +1,10 @@
 import { vec2 } from "gl-matrix";
-import { Component } from "../../core/ECS/Component";
-import { AnimatedSpriteComponent } from "../../core/ECS/components/AnimatedSpriteComponent";
-import { MouseButton } from "../../core/Events/Mouse/MouseSystem";
-import { inputSystem } from "../main";
-import { CharacterFSM } from "../player/CharacterFMS";
-import { StaminaComponent } from "./StaminaComponent";
+import { Component } from "../../../core/ECS/Component";
+import { ColliderComponent } from "../../../core/ECS/components/ColliderComponent";
+import { AnimatedSpriteComponent } from "../../../core/ECS/components/sprites/AnimatedSpriteComponent";
+import { MouseButton } from "../../../core/Events/Mouse/MouseSystem";
+import { StaminaComponent } from "../StaminaComponent";
+import { CharacterFSM } from "./CharacterFMS";
 
 interface PlayerComponentProps {
   walkSpeed: number;
@@ -14,6 +14,8 @@ interface PlayerComponentProps {
 export class PlayerComponent extends Component {
   direction: vec2 = [0, 0];
   spritesheet: AnimatedSpriteComponent;
+  collider: ColliderComponent;
+
   stamina: StaminaComponent;
   stateMachine: CharacterFSM;
   facing: "South" | "North" | "East" | "West" = "South";
@@ -28,6 +30,8 @@ export class PlayerComponent extends Component {
     this.spritesheet = this.entity.getComponent<AnimatedSpriteComponent>(
       AnimatedSpriteComponent
     );
+    this.collider =
+      this.entity.getComponent<ColliderComponent>(ColliderComponent);
     this.stamina = this.entity.getComponent<StaminaComponent>(StaminaComponent);
   }
 
@@ -46,7 +50,7 @@ export class PlayerComponent extends Component {
   movement(delta: number) {
     let { walkSpeed, runSpeed } = this.props;
 
-    const isRunning = inputSystem.keyboard.isKey("run");
+    const isRunning = this.inputSystem.keyboard.isKey("run");
 
     let direction: vec2 = [0, 0];
     let position: vec2 = [
@@ -54,16 +58,18 @@ export class PlayerComponent extends Component {
       this.entity.container.position.y,
     ];
 
-    if (inputSystem.keyboard.isKey("move_down"))
+    if (this.inputSystem.keyboard.isKey("move_down"))
       vec2.add(direction, direction, [0, 1]);
-    if (inputSystem.keyboard.isKey("move_up"))
+    if (this.inputSystem.keyboard.isKey("move_up"))
       vec2.add(direction, direction, [0, -1]);
-    if (inputSystem.keyboard.isKey("move_left"))
+    if (this.inputSystem.keyboard.isKey("move_left"))
       vec2.add(direction, direction, [-1, 0]);
-    if (inputSystem.keyboard.isKey("move_right"))
+    if (this.inputSystem.keyboard.isKey("move_right"))
       vec2.add(direction, direction, [1, 0]);
 
     vec2.normalize(direction, direction);
+
+    if (this.collider.colliding) direction = [0, 0];
 
     let action;
 
@@ -76,7 +82,8 @@ export class PlayerComponent extends Component {
     const faceDirection = this.getDirection(direction);
     if (faceDirection) this.facing = faceDirection;
 
-    if (inputSystem.mouse.isButtonDown(MouseButton.LEFT)) action = "attack";
+    if (this.inputSystem.mouse.isButtonDown(MouseButton.LEFT))
+      action = "attack";
 
     this.stateMachine.update(delta, action);
 
@@ -86,10 +93,14 @@ export class PlayerComponent extends Component {
 
     this.direction = direction;
 
-    vec2.add(position, position, [
+    const additionalPosition: vec2 = [
       this.direction[0] * speed * delta,
       this.direction[1] * speed * delta,
-    ]);
+    ];
+
+    vec2.add(position, position, additionalPosition);
+
+    if (this.collider.isColliding(additionalPosition)) return;
 
     this.entity.container.position.set(position[0], position[1]);
   }

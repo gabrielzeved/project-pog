@@ -1,5 +1,6 @@
 import { vec2 } from "gl-matrix";
 import * as PIXI from "pixi.js";
+import { layerManager } from "../../game/main";
 import { Application } from "../Application";
 
 import { Component, ComponentClass } from "./Component";
@@ -8,6 +9,7 @@ import { ComponentContainer } from "./ComponentContainer";
 export class Entity {
   private static _entityCounter = 0;
   private _id: number;
+  public parentApp: Application;
   private componentContainer: ComponentContainer;
   public container: PIXI.Container;
 
@@ -41,6 +43,8 @@ export class Entity {
     this._id = Entity._entityCounter;
     this.componentContainer = new ComponentContainer();
     this.container = new PIXI.Container();
+    this.container.parentLayer = layerManager.get("root");
+    this.parentApp = app;
     app.stage.addChild(this.container);
   }
 

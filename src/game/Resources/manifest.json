@@ -1,0 +1,38 @@
+{
+  "bundles": [
+    {
+      "name": "sprites",
+      "assets": [
+        {
+          "name": "character",
+          "srcs": "GUMDROP.PNG"
+        },
+        {
+          "name": "tileset",
+          "srcs": "tileset.png"
+        },
+        {
+          "name": "tree",
+          "srcs": "tree.png"
+        },
+        {
+          "name": "effect",
+          "srcs": "effect.png"
+        },
+        {
+          "name": "enemy",
+          "srcs": "octonid.png"
+        }
+      ]
+    },
+    {
+      "name": "maps",
+      "assets": [
+        {
+          "name": "teste",
+          "srcs": "maps/teste.json"
+        }
+      ]
+    }
+  ]
+}

@@ -2,22 +2,26 @@ import "../core/Math";
 
 import * as PIXI from "pixi.js";
 
+import { Assets } from "@pixi/assets";
+import { Stage } from "@pixi/layers";
+import GUI from "lil-gui";
+import Stats from "stats.js";
 import { Key } from "ts-keycode-enum";
 import { Application } from "../core/Application";
-import { AnimatedSpriteComponent } from "../core/ECS/components/AnimatedSpriteComponent";
-import { SpriteComponent } from "../core/ECS/components/SpriteComponent";
-import { InputSystem } from "../core/Events/InputSystem";
-import { PlayerComponent } from "./components/PlayerComponent";
-import { StaminaComponent } from "./components/StaminaComponent";
-import char from "./GUMDROP.json";
-import { Resources } from "./Resources";
-
-import Stats from "stats.js";
+import { ColliderComponent } from "../core/ECS/components/ColliderComponent";
+import { AnimatedSpriteComponent } from "../core/ECS/components/sprites/AnimatedSpriteComponent";
+import { TilemapColliderComponent } from "../core/ECS/components/tilemap/TilemapColliderComponent";
+import { LayerManager } from "../core/Layer/LayerManager";
 import { Tilemap } from "../core/Tiled/Tiled";
+import { PlayerComponent } from "./components/player/PlayerComponent";
+import { StaminaComponent } from "./components/StaminaComponent";
+import "./Resources/Resources";
 
-export const options = {
-  debug: false,
-};
+import { DamagableComponent } from "./components/DamagableComponent";
+import char from "./GUMDROP.json";
+import enemyJSON from "./octonid.json";
+
+const gui = new GUI();
 
 var stats = new Stats();
 stats.showPanel(0); // 0: fps, 1: ms, 2: mb, 3+: custom
@@ -32,26 +36,13 @@ const app = new Application({
   height: window.innerHeight,
 });
 
-window.addEventListener("resize", resize);
-function resize() {
-  app.renderer.resize(window.innerWidth, window.innerHeight);
-}
+export const layerManager = new LayerManager();
+layerManager.add("root", 0);
 
-export const resources = new Resources();
+app.stage = new Stage();
+app.stage.addChild(layerManager.get("root"));
 
-await new Promise<void>((resolve, reject) => {
-  try {
-    resources.start(() => {
-      resolve();
-    });
-  } catch {
-    reject();
-  }
-});
-
-export const inputSystem = new InputSystem(app);
-
-inputSystem.keyboard.import({
+app.inputSystem.keyboard.import({
   move_up: Key.W,
   move_down: Key.S,
   move_left: Key.A,
@@ -60,10 +51,14 @@ inputSystem.keyboard.import({
   attack: Key.Space,
 });
 
-const tilemap = Tilemap.fromTiled(resources.maps["teste"]);
+const maps = await Assets.loadBundle("maps");
+const sprites = await Assets.loadBundle("sprites");
+
+const tilemap = Tilemap.fromTiled(maps.teste);
 
 const tilemapE = app.createEntity();
 tilemapE.addComponent(tilemap.toComponent());
+tilemapE.addComponent(new TilemapColliderComponent());
 
 const entity = app.createEntity();
 entity.pivot = [0.5, 0.5];
@@ -73,10 +68,17 @@ entity.addComponent(
   new AnimatedSpriteComponent({
     initialAnimation: "IdleSouth",
     spritesheetData: char,
-    texture: resources.textures["character"],
+    texture: sprites.character,
     speed: 0.3,
   })
 );
+
+const damagable = new DamagableComponent({
+  healthBarSize: [50, 10],
+  maxHealth: 100,
+});
+
+entity.addComponent(damagable);
 
 entity.addComponent(
   new StaminaComponent({
@@ -84,15 +86,46 @@ entity.addComponent(
   })
 );
 
-const tree = app.createEntity();
-tree.pivot = [0.5, 1.0];
-tree.addComponent(
-  new SpriteComponent({
-    texture: resources.textures["tree"],
-    pivot: new PIXI.Point(0.5, 1.0),
+entity.addComponent(
+  new ColliderComponent({
+    rect: new PIXI.Rectangle(-8, 4, 16, 8),
   })
 );
-tree.container.position.set(300, 300);
+
+const enemy = app.createEntity();
+enemy.pivot = [0.5, 0.5];
+enemy.addComponent(
+  new AnimatedSpriteComponent({
+    initialAnimation: "IdleSouth",
+    spritesheetData: enemyJSON,
+    texture: sprites.enemy,
+    speed: 0.3,
+  })
+);
+enemy.addComponent(
+  new ColliderComponent({
+    rect: new PIXI.Rectangle(-12, -4, 24, 16),
+  })
+);
+enemy.container.position.set(150, 150);
+
+entity.container.position.set(100, 100);
+entity.container.zOrder = 1;
+
+gui.add(enemy.container, "x").listen();
+gui.add(enemy.container, "y").listen();
+
+gui.add(damagable, "health", 0, 100, 1).listen();
+
+for (let i = 0; i < 100; i++) {
+  const collide = app.createEntity();
+  collide.addComponent(
+    new ColliderComponent({
+      rect: new PIXI.Rectangle(0, 0, 32, 32),
+    })
+  );
+  collide.container.position.set(Math.random() * 800, Math.random() * 800);
+}
 
 app.entities.forEach((e) => e.start());
 
@@ -103,7 +136,7 @@ app.ticker.add((delta) => {
   //tree.container.position = app.stage.toLocal(inputSystem.mouse.position);
 
   //INPUT SYSTEM PROCESS NEEDS TO BE ALWAYS AT THE END
-  inputSystem.process();
+  app.inputSystem.process();
   stats.end();
 });
 
@@ -111,87 +144,3 @@ app.stage.scale.set(1, 1);
 
 document.getElementById("root")!.appendChild(app.view);
 app.start();
-
-// if (inputSystem.keyboard.isKey(Key.Space)) {
-//   const mousePosition = app.stage.toLocal(inputSystem.mouse.position);
-//   const dir: vec2 = [
-//     mousePosition.x - entity.position[0],
-//     mousePosition.y - entity.position[1],
-//   ];
-//   vec2.normalize(dir, dir);
-
-//   const effect = app.createEntity();
-//   effect.pivot = [0.5, 0.5];
-
-//   effect.addComponent(
-//     new AnimatedSpriteComponent({
-//       initialAnimation: "default",
-//       spritesheetData: effectJson,
-//       texture: resources.textures["effect"],
-//       speed: 1,
-//     })
-//   );
-
-//   effect.addComponent(
-//     new ProjectileComponent({
-//       direction: dir,
-//       velocity: 3,
-//       ttl: 5,
-//       extraAngle: Math.radians(180),
-//     })
-//   );
-//   effect.position = entity.position;
-//   effect.container.scale.set(0.6, 0.6);
-//   effect.start();
-// }
-
-// const editor = new SpritesheetEditor(document.getElementById("editor")!);
-
-// const preview = editor.app.createEntity();
-// preview.addComponent(
-//   new SpriteRendererComponent({
-//     texture: resources.textures["character"],
-//   })
-// );
-
-// preview.container.pivot.set(0.5, 0.5);
-
-// editor.app.entities.forEach((e) => e.start());
-// editor.start();
-
-// preview.container.pivot.set(
-//   preview.container.width / 2,
-//   preview.container.height / 2
-// );
-
-// editor.app.ticker.add((delta) => {
-//   editor.app.entities.forEach((e) => e.update(delta));
-// });
-
-// var spritesheetConfig = {
-//   totalSize: {
-//     x: 0,
-//     y: 0,
-//   },
-//   tileSize: {
-//     x: 0,
-//     y: 0,
-//   },
-//   count: 0,
-//   copyJson: () => {
-//     console.log("alo");
-//   },
-// };
-
-// var gui = new dat.GUI({ autoPlace: false });
-// var tileSize = gui.addFolder("Tile Size");
-// tileSize.add(spritesheetConfig.tileSize, "x");
-// tileSize.add(spritesheetConfig.tileSize, "y");
-// var totalSize = gui.addFolder("Total Size");
-// totalSize.add(spritesheetConfig.totalSize, "x");
-// totalSize.add(spritesheetConfig.totalSize, "y");
-// gui.add(spritesheetConfig, "count");
-// gui.add(spritesheetConfig, "copyJson");
-
-// const customContainer = document.getElementById("editor")!;
-// customContainer.appendChild(gui.domElement);

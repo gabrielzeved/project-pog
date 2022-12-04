@@ -21,6 +21,7 @@ export interface ILayer {
   x: number;
   y: number;
   objects: IObject[];
+  properties?: IProperty[];
 }
 
 export interface IObject {

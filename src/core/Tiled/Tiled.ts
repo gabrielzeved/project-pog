@@ -1,5 +1,6 @@
+import { vec2 } from "gl-matrix";
 import * as PIXI from "pixi.js";
-import { TilemapComponent } from "../ECS/components/TilemapComponent";
+import { TilemapComponent } from "../ECS/components/tilemap/TilemapComponent";
 import {
   ILayer,
   IObject,
@@ -9,7 +10,7 @@ import {
   LayerType,
 } from "./typings";
 
-interface Tile {
+export interface Tile {
   id: number;
   flippedHorizontally: boolean;
   flippedVertically: boolean;
@@ -34,6 +35,8 @@ interface Object {
 export class Tilemap {
   layers: Layer[];
   tilesets: Tileset[];
+  tileHeight: number;
+  tileWidth: number;
 
   public static fromTiled(data: ITiledFile): Tilemap {
     const tilemap = new Tilemap();
@@ -41,7 +44,15 @@ export class Tilemap {
     tilemap.tilesets = data.tilesets.map((tileset) =>
       Tileset.fromTiled(tileset)
     );
+    tilemap.tileHeight = data.tileheight;
+    tilemap.tileWidth = data.tilewidth;
     return tilemap;
+  }
+
+  getTilePosition(pos: vec2): vec2 {
+    const [x, y] = pos;
+
+    return [Math.floor(x / this.tileWidth), Math.floor(y / this.tileWidth)];
   }
 
   getLocalId(gid: number) {
@@ -71,11 +82,15 @@ export class Layer {
   width: number;
   height: number;
   type: LayerType;
+  name: string;
+
+  solid: boolean;
 
   constructor(data: ILayer) {
     this.width = data.width;
     this.height = data.height;
     this.type = data.type;
+    this.name = data.name;
   }
 
   public static fromTiled(data: ILayer): Layer {
@@ -86,6 +101,12 @@ export class Layer {
     } else if (data.type == "objectgroup") {
       layer.parseObjects(data);
     }
+
+    const solidProperty = data?.properties?.find(
+      (property) => property.name === "solid"
+    );
+
+    layer.solid = solidProperty?.value === true;
     return layer;
   }
 

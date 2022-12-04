@@ -1,6 +1,6 @@
 import * as PIXI from "pixi.js";
 import { AnimatedSprite, Spritesheet } from "pixi.js";
-import { Component } from "../Component";
+import { Component } from "../../Component";
 import { ISpriteComponent } from "./SpriteComponent";
 
 interface SpritesheetData extends PIXI.ISpritesheetData {

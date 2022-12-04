@@ -321,6 +321,18 @@
   resolved "https://registry.yarnpkg.com/@pixi/app/-/app-6.5.8.tgz#0a09bce23a222458e6a769d8ecbb0643ee165368"
   integrity sha512-pDPkamtYDaPhscNxack+bHNqazCwrqw6cAotKyoz1mvLXeGhxqTntOcfgGLZR2fNbnY8EBmdduLvH7n2jI/LTg==
 
+"@pixi/assets@6.5.7":
+  version "6.5.7"
+  resolved "https://registry.yarnpkg.com/@pixi/assets/-/assets-6.5.7.tgz#d0f5961fb154e2c7114c71ed255f359d474151fd"
+  integrity sha512-IsHNtqY4HERBlXugYyWWn3S8wRm4nl+4mskBk5ZqHXoH8USvSNHJ/L1D6J8EhThjO+ZiQt13SiNWhjcYbgPiTg==
+  dependencies:
+    "@types/css-font-loading-module" "^0.0.7"
+
+"@pixi/basis@6.5.7":
+  version "6.5.7"
+  resolved "https://registry.yarnpkg.com/@pixi/basis/-/basis-6.5.7.tgz#d45264b4089134b2f48c93216c0cb08f43d40ab1"
+  integrity sha512-GzYW485X1HCQxEf5bI2MPS219O8oXaVfS1okqx9mZ/liFEqzNqoiNVucN88jwCuhaX3u9n2yxLa5vkAMYwPmSQ==
+
 "@pixi/compressed-textures@6.5.8":
   version "6.5.8"
   resolved "https://registry.yarnpkg.com/@pixi/compressed-textures/-/compressed-textures-6.5.8.tgz#5c814bc49f426485016c3eae1d50cb3a659fc4d8"
@@ -557,6 +569,11 @@
   resolved "https://registry.yarnpkg.com/@pixi/interaction/-/interaction-6.5.8.tgz#d4e83cb4d1f03f23633706ef9495406a2401dc26"
   integrity sha512-uP247r0f47vo9WSpEnsUfeD1izxVGpjtg4iAyGT/02ezWse2vD1aEL8AbxFa65TL0IXOKsHEQudCVL+wjnbSKQ==
 
+"@pixi/layers@1.0.11":
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/@pixi/layers/-/layers-1.0.11.tgz#10343f92405101e950ff5f6faaee7dce7243104e"
+  integrity sha512-E9jVR7kWMbBBhyaoX4Vi/rZAk4QFMDFiwvZF5xXZ2sBKh1/2aaTD2oQB3QHtekQ0IYXjyxgRRVEpeYTlZgz5xA==
+
 "@pixi/loaders@6.5.8":
   version "6.5.8"
   resolved "https://registry.yarnpkg.com/@pixi/loaders/-/loaders-6.5.8.tgz#5fe2e74c2c532b4bb900063ee2f33385e5446f7a"
@@ -655,6 +672,11 @@
   resolved "https://registry.yarnpkg.com/@pixi/ticker/-/ticker-6.5.8.tgz#708120bcadce7c4446e2238df590c54debbaed78"
   integrity sha512-7VKq5hfnRDSv6a16pATqZAmpQfEu4G171iUTloy3QZfbnPw0s3JervZSih1yJJD84GXEF4VzYB26pJ/x3arGjQ==
 
+"@pixi/tilemap@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@pixi/tilemap/-/tilemap-2.2.0.tgz#9c48f47ea71fe0f11648df7903cf477ae14e4e69"
+  integrity sha512-e7nbd6FPO1bcvwCNlKLn7YOSy6i5V526LgbPYSK037Va4TOUTbFKnFbx8vmTLXECWBl3BNXJ8QWjpFnrhwyj/Q==
+
 "@pixi/utils@6.5.8":
   version "6.5.8"
   resolved "https://registry.yarnpkg.com/@pixi/utils/-/utils-6.5.8.tgz#5b7662c00951ac530bb0b72329bab922f4030930"
@@ -664,6 +686,11 @@
     earcut "^2.2.4"
     eventemitter3 "^3.1.0"
     url "^0.11.0"
+
+"@types/css-font-loading-module@^0.0.7":
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/@types/css-font-loading-module/-/css-font-loading-module-0.0.7.tgz#2f98ede46acc0975de85c0b7b0ebe06041d24601"
+  integrity sha512-nl09VhutdjINdWyXxHWN/w9zlNCfr60JUqJbd24YXUuCwgeL0TpFSdElCwb6cxfB6ybE19Gjj4g0jsgkXxKv1Q==
 
 "@types/dat.gui@^0.7.7":
   version "0.7.7"
@@ -1178,6 +1205,11 @@ json5@^2.2.1:
   version "2.2.1"
   resolved "https://registry.npmjs.org/json5/-/json5-2.2.1.tgz"
   integrity sha512-1hqLFMSrGHRHxav9q9gNjJ5EXznIxGVO09xQRrwplcS8qs28pZ8s8hupZAmqDwZUmVZ2Qb2jnyPOWcDH8m8dlA==
+
+lil-gui@^0.17.0:
+  version "0.17.0"
+  resolved "https://registry.yarnpkg.com/lil-gui/-/lil-gui-0.17.0.tgz#b41ae55d0023fcd9185f7395a218db0f58189663"
+  integrity sha512-MVBHmgY+uEbmJNApAaPbtvNh1RCAeMnKym82SBjtp5rODTYKWtM+MXHCifLe2H2Ti1HuBGBtK/5SyG4ShQ3pUQ==
 
 lilconfig@^2.0.5, lilconfig@^2.0.6:
   version "2.0.6"
