@@ -58,12 +58,21 @@ export class Application extends PIXI.Application {
 
     tilemap.layers = tilemap.layers.slice(1);
 
-    const tilemapEntity = this.createEntity();
-    tilemapEntity.addComponent(tilemap.toComponent());
+    const entity = this.createEntity();
+    entity.addComponent(tilemap.toComponent());
+    entity.container.zIndex = 2;
 
-    tilemapEntity.container.sortableChildren = true;
+    // console.log(tilemap.layers, "layers");
 
-    // tilemapEntity.container.parent = 1;
+    // tilemap.layers.forEach((layer) => {
+    //   const tmap = Tilemap.fromTiled(this.resources.maps["teste"]);
+    //   const tEntity = this.createEntity();
+
+    //   tmap.layers = [layer];
+    //   tEntity.addComponent(tmap.toComponent());
+
+    //   tEntity.container.zIndex = 2;
+    // });
   }
 
   drawLowerTiles() {
@@ -134,23 +143,34 @@ export class Application extends PIXI.Application {
     // console.log(this.entities);
 
     // Start this after all entities are created
-    this.entities.forEach((entity) => {
-      entity.start();
-      // entity.update = () => {
-      //   this.renderer.render(this.stage);
-      // };
-    });
+    this.entities.forEach((entity) => entity.start());
 
     console.log(this.stage.children);
 
     /* Game Loop */
     this.ticker.add((delta) => {
       this.stats.begin();
+
       this.entities.forEach((e) => e.update(delta));
 
       this.stage.children.sort(function (a, b) {
-        const nx = 1;
+        const nx = 0;
         const ny = 1;
+
+        if (a.zIndex === 2) {
+          if (b.zIndex === 1.01) {
+            // console.log(b); // Player
+            console.log(a, "tile container"); // Upper Tile Container
+            return (
+              b.position.x * nx +
+              b.position.y * ny -
+              (b.position.x * nx + b.position.y * ny)
+            );
+          } else {
+            return 0;
+          }
+        }
+
         return (
           a.position.x * nx +
           a.position.y * ny -
@@ -168,7 +188,7 @@ export class Application extends PIXI.Application {
     const entity = this.createEntity();
     entity.pivot = [0.5, 0.5];
     entity.addComponent(new PlayerComponent({ walkSpeed: 2, runSpeed: 4 }));
-
+    entity.container.zIndex = 1.01;
     entity.addComponent(
       new AnimatedSpriteComponent({
         initialAnimation: "IdleSouth",
