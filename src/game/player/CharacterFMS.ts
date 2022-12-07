@@ -4,7 +4,7 @@ import {
   State,
 } from "../../core/StateMachine/StateMachine";
 import { PlayerComponent } from "../components/PlayerComponent";
-import { inputSystem } from "../main";
+import { app } from "../main";
 
 export class CharacterFSM extends FiniteStateMachine {
   component: PlayerComponent;
@@ -147,7 +147,7 @@ class AttackState extends AnimationState {
 
   update(delta: number): void {
     super.update(delta);
-    if (this.waitFrame && inputSystem.mouse.isButtonDown(MouseButton.LEFT))
+    if (this.waitFrame && app.inputSystem.mouse.isButtonDown(MouseButton.LEFT))
       this.shouldCombo = true;
     this.waitFrame = true;
   }
@@ -189,7 +189,7 @@ class AttackBState extends AnimationState {
 
   update(delta: number): void {
     super.update(delta);
-    if (this.waitFrame && inputSystem.mouse.isButtonDown(MouseButton.LEFT))
+    if (this.waitFrame && app.inputSystem.mouse.isButtonDown(MouseButton.LEFT))
       this.shouldCombo = true;
     this.waitFrame = true;
   }
