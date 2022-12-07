@@ -1,5 +1,5 @@
 import * as PIXI from "pixi.js";
-import { TiledFile } from "../core/Tiled/typings";
+import { ITiledFile } from "../core/Tiled/typings";
 
 export type Resource = [string, string];
 
@@ -18,12 +18,24 @@ export class Resources {
   private _mapResources: Resource[] = [["teste", "maps/teste.json"]];
 
   textures: Record<string, PIXI.Texture> = {};
-  maps: Record<string, TiledFile> = {};
+  maps: Record<string, ITiledFile> = {};
 
   loader: PIXI.Loader;
 
   constructor() {
     this.loader = new PIXI.Loader();
+  }
+
+  async tryInit(): Promise<boolean> {
+    return new Promise<boolean>((resolve, reject) => {
+      try {
+        this.start(() => {
+          resolve(true);
+        });
+      } catch (err) {
+        reject();
+      }
+    });
   }
 
   afterLoad() {

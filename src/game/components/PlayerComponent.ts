@@ -2,9 +2,9 @@ import { vec2 } from "gl-matrix";
 import { Component } from "../../core/ECS/Component";
 import { AnimatedSpriteComponent } from "../../core/ECS/components/AnimatedSpriteComponent";
 import { MouseButton } from "../../core/Events/Mouse/MouseSystem";
-import { inputSystem } from "../main";
 import { CharacterFSM } from "../player/CharacterFMS";
 import { StaminaComponent } from "./StaminaComponent";
+import { app } from "../main";
 
 interface PlayerComponentProps {
   walkSpeed: number;
@@ -46,7 +46,7 @@ export class PlayerComponent extends Component {
   movement(delta: number) {
     let { walkSpeed, runSpeed } = this.props;
 
-    const isRunning = inputSystem.keyboard.isKey("run");
+    const isRunning = app.inputSystem.keyboard.isKey("run");
 
     let direction: vec2 = [0, 0];
     let position: vec2 = [
@@ -54,13 +54,13 @@ export class PlayerComponent extends Component {
       this.entity.container.position.y,
     ];
 
-    if (inputSystem.keyboard.isKey("move_down"))
+    if (app.inputSystem.keyboard.isKey("move_down"))
       vec2.add(direction, direction, [0, 1]);
-    if (inputSystem.keyboard.isKey("move_up"))
+    if (app.inputSystem.keyboard.isKey("move_up"))
       vec2.add(direction, direction, [0, -1]);
-    if (inputSystem.keyboard.isKey("move_left"))
+    if (app.inputSystem.keyboard.isKey("move_left"))
       vec2.add(direction, direction, [-1, 0]);
-    if (inputSystem.keyboard.isKey("move_right"))
+    if (app.inputSystem.keyboard.isKey("move_right"))
       vec2.add(direction, direction, [1, 0]);
 
     vec2.normalize(direction, direction);
@@ -76,7 +76,7 @@ export class PlayerComponent extends Component {
     const faceDirection = this.getDirection(direction);
     if (faceDirection) this.facing = faceDirection;
 
-    if (inputSystem.mouse.isButtonDown(MouseButton.LEFT)) action = "attack";
+    if (app.inputSystem.mouse.isButtonDown(MouseButton.LEFT)) action = "attack";
 
     this.stateMachine.update(delta, action);
 
