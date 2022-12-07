@@ -9,12 +9,18 @@ import { PlayerComponent } from "../game/components/PlayerComponent";
 import { AnimatedSpriteComponent } from "./ECS/components/AnimatedSpriteComponent";
 import { StaminaComponent } from "../game/components/StaminaComponent";
 import char from "../game/GUMDROP.json";
+import { SpriteComponent } from "./ECS/components/SpriteComponent";
+
+type StageObjects = {
+  playerStart: { x: number; y: number };
+};
 
 export class Application extends PIXI.Application {
   public entities: Array<Entity> = [];
   private resources: Resources;
   public inputSystem: InputSystem;
   private stats: Stats;
+  private stageObjects: StageObjects;
 
   constructor() {
     super({
@@ -47,6 +53,59 @@ export class Application extends PIXI.Application {
     }
   }
 
+  drawUpperTiles() {
+    const tilemap = Tilemap.fromTiled(this.resources.maps["teste"]);
+
+    tilemap.layers = tilemap.layers.slice(1);
+
+    const tilemapEntity = this.createEntity();
+    tilemapEntity.addComponent(tilemap.toComponent());
+
+    tilemapEntity.container.sortableChildren = true;
+
+    // tilemapEntity.container.parent = 1;
+  }
+
+  drawLowerTiles() {
+    const tilemap = Tilemap.fromTiled(this.resources.maps["teste"]);
+    const objects = tilemap.layers.find(
+      (layer) => layer.type === "objectgroup"
+    )?.objects;
+
+    // get only lower tiles
+    tilemap.layers = tilemap.layers.slice(0, 1);
+
+    const tilemapEntity = this.createEntity();
+    tilemapEntity.addComponent(tilemap.toComponent());
+
+    // Set up player initial position
+    if (objects) {
+      const playerStart = objects.find((obj) => obj.name === "player-start");
+
+      if (playerStart) {
+        this.stageObjects = {
+          playerStart: {
+            x: playerStart.x,
+            y: playerStart.y,
+          },
+        };
+      }
+    }
+  }
+
+  drawObjects() {
+    const tree = this.createEntity();
+
+    tree.pivot = [0.5, 1.0];
+    tree.addComponent(
+      new SpriteComponent({
+        texture: this.resources.textures["tree"],
+        pivot: new PIXI.Point(0.5, 1.0),
+      })
+    );
+    tree.container.position.set(300, 300);
+  }
+
   draw() {
     this.inputSystem.keyboard.import({
       move_up: Key.W,
@@ -57,18 +116,47 @@ export class Application extends PIXI.Application {
       attack: Key.Space,
     });
 
-    const tilemap = Tilemap.fromTiled(this.resources.maps["teste"]);
-
-    const tilemapE = this.createEntity();
-    tilemapE.addComponent(tilemap.toComponent());
-
+    /* Map Stuff */
+    this.drawLowerTiles();
+    this.drawObjects();
     this.spawnPlayer();
+    this.drawUpperTiles();
 
-    this.entities.forEach((entity) => entity.start());
+    //   this.stage.children.sort(function(a,b) {
+    //     a.y = a.y || 0 ;
+    //     b.y = b.y || 0;
+    //     return a.y - b.y;
+    // });
 
+    // this.entities.sort(
+    //   (a: Entity, b: Entity) => b.container.zIndex - a.container.zIndex
+    // );
+    // console.log(this.entities);
+
+    // Start this after all entities are created
+    this.entities.forEach((entity) => {
+      entity.start();
+      // entity.update = () => {
+      //   this.renderer.render(this.stage);
+      // };
+    });
+
+    console.log(this.stage.children);
+
+    /* Game Loop */
     this.ticker.add((delta) => {
       this.stats.begin();
       this.entities.forEach((e) => e.update(delta));
+
+      this.stage.children.sort(function (a, b) {
+        const nx = 1;
+        const ny = 1;
+        return (
+          a.position.x * nx +
+          a.position.y * ny -
+          (b.position.x * nx + b.position.y * ny)
+        );
+      });
 
       // INPUT SYSTEM PROCESS NEEDS TO BE ALWAYS AT THE END
       this.inputSystem.process();
@@ -95,6 +183,13 @@ export class Application extends PIXI.Application {
         max: 100,
       })
     );
+
+    if (this?.stageObjects?.playerStart) {
+      entity.container.position.set(
+        this.stageObjects.playerStart.x,
+        this.stageObjects.playerStart.y
+      );
+    }
   }
 
   events() {
